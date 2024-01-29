@@ -1,0 +1,53 @@
+@font-face{src: url("media/fonts/Ransom.ttf");
+font-family: ransom;}
+@font-face {
+    font-family: winkle;
+    src: url("media/fonts/Winkle-Regular.ttf");
+}
+
+h1{
+    font-family: ransom, system-ui;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+p{
+    font-family: winkle, system-ui;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 25px;
+    width: 50%;
+    align-items: center;
+}
+*{margin: 0; padding: 0;}
+nav{font-family: winkle; font-size: 35px;}
+.flip ul {
+    list-style-type: none; 
+    background-color: pink;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+}
+.flip li a {
+    display: block; 
+    width: 60px;
+    color: black; 
+    padding-right: 16px; padding-top: 16px; padding-bottom: 16px; padding-right:  16px;
+    align-items: center;
+    text-align: center;
+}
+.flip ul{list-style-type: none;background-color: pink;
+overflow: hidden;}
+.flip li{float: right;}
+.flip li a{
+    display: block;
+    color: rgb(186, 25, 52);
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+.flip li a:hover {background-color: #e96e6e
+}
