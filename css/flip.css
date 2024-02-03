@@ -1,0 +1,21 @@
+@font-face{src: url("media/fonts/Ransom.ttf");
+    font-family: ransom;}
+@font-face {font-family: winkle;
+    src: url("media/fonts/Winkle-Regular.ttf");}
+h1{
+    font-family: ransom, system-ui;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+p{
+    font-family: winkle, system-ui;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 30px;
+    width: 60%;
+    align-items: center;
+    margin: 0;
+}

@@ -1,12 +1,12 @@
 @font-face{src: url("media/fonts/Ransom.ttf");
-font-family: ransom;}
+font-family: ransoms;}
 @font-face {
     font-family: winkle;
     src: url("media/fonts/Winkle-Regular.ttf");
 }
 
 h1{
-    font-family: ransom, system-ui;
+    font-family: ransoms, system-ui;
     text-align: center;
     font-size: 100px;
     letter-spacing: 15px;
@@ -17,9 +17,10 @@ p{
     justify-content: center;
     text-align: center;
     background-color: aliceblue;
-    font-size: 25px;
-    width: 50%;
+    font-size: 30px;
+    width: 60%;
     align-items: center;
+    margin: 0;
 }
 *{margin: 0; padding: 0;}
 nav{font-family: winkle; font-size: 35px;}
@@ -39,8 +40,8 @@ nav{font-family: winkle; font-size: 35px;}
     align-items: center;
     text-align: center;
 }
-.flip ul{list-style-type: none;background-color: pink;
-overflow: hidden;}
+.flip ul{list-style-type: none;background-color: pink; justify-content: right; display: flex; align-items: right;
+}
 .flip li{float: right;}
 .flip li a{
     display: block;
@@ -48,6 +49,8 @@ overflow: hidden;}
     text-align: center;
     padding: 15px 17px;
     text-decoration: none;
+    justify-content: right;
 }
 .flip li a:hover {background-color: #e96e6e
 }
+.paragraph {text-align: center; display: flex; justify-content: center;}
