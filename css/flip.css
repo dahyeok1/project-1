@@ -2,13 +2,13 @@
     font-family: ransom;}
 @font-face {font-family: winkle;
     src: url("media/fonts/Winkle-Regular.ttf");}
-h1{
+h1 {
     font-family: ransom, system-ui;
     text-align: center;
     font-size: 100px;
     letter-spacing: 15px;
 }
-p{
+p { 
     font-family: winkle, system-ui;
     display: flex;
     justify-content: center;
