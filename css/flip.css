@@ -26,6 +26,19 @@ p {
     align-items: center;
     margin: 0;
 }
+.espn{
+    font-family: winkle, system-ui;
+    display: flex;
+    justify-content: left;
+    font-size: 45px;
+    height: 50px;
+    width: 500px;
+    align-items: left;
+    margin: 0;
+    position: absolute;
+    top: 4900px;
+    left: 60px
+}
 .blackberry {size: 25%;}
 img{width: 30%;}
 
@@ -139,8 +152,8 @@ img{
 .arrow{
     height: 50px;
     position: absolute;
-    top: 550px;
-    left: 100px;
+    top: 850px;
+    left: 50px;
 }
 .a{
     font-family: winkle;
