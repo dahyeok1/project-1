@@ -1,12 +1,18 @@
-@font-face{src: url("media/fonts/Ransom.ttf");
-    font-family: ransom;}
-@font-face {font-family: winkle;
-    src: url("media/fonts/Winkle-Regular.ttf");}
-h1 {
+@font-face {
+    font-family: ransom;
+    src: url("media/fonts/Ransom.ttf");
+}
+@font-face {
+    font-family: winkle;
+    src: url("media/fonts/Winkle-Regular.ttf");
+}
+*{margin: 0; padding: 0;}
+.heading {
     font-family: ransom, system-ui;
     text-align: center;
-    font-size: 100px;
+    font-size: 70px;
     letter-spacing: 15px;
+    padding-top: 20px;
 }
 p { 
     font-family: winkle, system-ui;
@@ -14,8 +20,207 @@ p {
     justify-content: center;
     text-align: center;
     background-color: aliceblue;
-    font-size: 30px;
-    width: 60%;
+    font-size: 35px;
+    width: 450px;
+    height: 50px;
     align-items: center;
     margin: 0;
 }
+.blackberry {size: 25%;}
+img{width: 30%;}
+
+.flip ul {
+    list-style-type: none; 
+    background-color: pink;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.flip li a {
+    display: block; 
+    width: 60px;
+    color: black; 
+    padding-right: 16px; padding-top: 16px; padding-bottom: 16px; padding-right:  16px;
+    align-items: center;
+    text-align: center;
+}
+.flip ul{list-style-type: none;background-color: pink; justify-content: right; display: flex; align-items: right;
+overflow: hidden;
+}
+.flip li{float: left;}
+.flip li a{
+    display: block;
+    color: rgb(186, 25, 52);
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    justify-content: left;
+    width: auto;
+}
+.flip li a:hover {background-color: #e78a8a
+}
+nav{font-family: winkle; font-size: 35px;}
+.paragraph {
+    justify-content: center; 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 30px; 
+    padding-bottom: 50px;}
+.phones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(255, 196, 196);
+}
+img{
+    width: 450px; 
+    padding-top: 20px; 
+    padding-bottom: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.nokia{
+    font-size: 90px;
+    letter-spacing: 10px;
+    font-family: ransom, system-ui;
+    background-color: rgb(255, 240, 253);
+    overflow: hidden;
+    border: 10px solid rgb(222, 132, 132);
+    margin-top: 50px;
+    padding-left: 15px; padding-right: 15px; padding-top: 5px;
+}
+.motorola {    
+    font-size: 90px;
+    letter-spacing: 10px;
+    padding-top: 90px;
+    font-family: ransom, system-ui;
+    background-color: rgb(255, 240, 253);
+    overflow: hidden;
+    border: 10px solid rgb(222, 132, 132);
+    margin-top: 50px;
+    padding-left: 15px; padding-right: 15px; padding-top: 5px;
+}
+.blackberry{
+    font-size: 90px;
+    letter-spacing: 10px;
+    padding-top: 90px;
+    font-family: ransom, system-ui;
+    background-color: rgb(255, 240, 253);
+    overflow: hidden;
+    border: 10px solid rgb(222, 132, 132);
+    margin-top: 50px;
+    padding-left: 15px; padding-right: 15px; padding-top: 5px;
+}
+.iphone{font-size: 90px;
+    letter-spacing: 10px;
+    padding-top: 140px;
+    font-family: ransom, system-ui;
+    background-color: rgb(255, 240, 253);
+    overflow: hidden;
+    border: 10px solid rgb(222, 132, 132);
+    margin-top: 50px;
+    padding-left: 15px; padding-right: 15px; padding-top: 5px;
+}
+.samsung{
+    font-size: 90px;
+    letter-spacing: 10px;
+    padding-top: 90px;
+    font-family: ransom, system-ui;
+    background-color: rgb(255, 240, 253);
+    overflow: hidden;
+    border: 10px solid rgb(222, 132, 132);
+    margin-top: 50px;
+    padding-left: 15px; padding-right: 15px; padding-top: 5px;
+}
+.arrow{
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+.a{
+    font-family: winkle;
+    font-size: 80px;
+}
+.nokiad{
+    font-size: 60px;
+    font-family: winkle;
+    padding-left: 50px;
+
+}
+.vintage{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    top: 1900px; left: 0px;
+}
+.karen{
+    position: absolute;
+     display: flex;
+     justify-content:left;
+     top: 4550px;
+    padding-left: 70px;}
+.meangirls{
+    position: absolute;
+     display: flex;
+     justify-content:right;
+     top: 3050px;
+     right: 8px;
+    padding-right: 30px;
+}
+.cold {font-family: winkle;
+    font-size: 45px;
+    position: absolute;
+    left: 10px;
+    padding-top: 10px;
+}
+h3{
+    background-color: rgb(255, 240, 253);
+     color: hotpink;
+     border: 10px solid rgb(222, 132, 132);}
+.plastic{
+    position: absolute;
+    display: flex;
+    justify-content:left;
+    top: 3600px;
+    right: 5px;
+   padding-left: 70px;}
+.arrowz{
+    position: absolute;
+    display: flex;
+    justify-content:right;
+    top: 4550px;
+    right: 8px;
+   padding-right: 30px;
+}
+.arrows{
+    position: absolute;
+    display: flex;
+    justify-content:right;
+    top: 1950px;
+    right: 8px;
+   padding-right: 30px;
+}
+.pretty{
+    position: absolute;
+    display: flex;
+    justify-content:right;
+    top: 2850px;
+    left: 8px;
+   padding-right: 30px;
+}
+section{
+    width: 1000px;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    top: 650px; right: 5px;
+    }
+.arrow2{
+    position: absolute;
+    display: flex;
+    top: 3800px}

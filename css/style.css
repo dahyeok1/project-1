@@ -10,25 +10,26 @@ h1{
     text-align: center;
     font-size: 150px;
     letter-spacing: 15px;
+    padding-top: 50px;
+    padding-right: 40px;
 }
-.regina {position: absolute;}
 p{
     font-family: winkle, system-ui;
     display: flex;
     justify-content: center;
     text-align: center;
     background-color: aliceblue;
-    font-size: 30px;
+    font-size: 40px;
     width: 60%;
     align-items: center;
     margin: 0;
 }
-*{margin: 0; padding: 0;}
 nav{font-family: winkle; font-size: 35px;}
+.title {align-items: center; justify-content: center;}
+
 .flip ul {
     list-style-type: none; 
     background-color: pink;
-    width: 200px;
     height: 80px;
     align-items: center;
     text-align: center;
@@ -42,17 +43,34 @@ nav{font-family: winkle; font-size: 35px;}
     text-align: center;
 }
 .flip ul{list-style-type: none;background-color: pink; justify-content: right; display: flex; align-items: right;
+overflow: hidden;
 }
-.flip li{float: right;}
+.flip li{float: left;}
 .flip li a{
     display: block;
     color: rgb(186, 25, 52);
     text-align: center;
-    padding: 15px 17px;
+    padding: 15px 30px;
     text-decoration: none;
-    justify-content: right;
+    justify-content: left;
+    width: auto;
 }
-.flip li a:hover {background-color: #e96e6e
+.flip li a:hover {background-color: #e78a8a
 }
-.paragraph {justify-content: center; display: flex; justify-content: center;}
+.paragraph {
+    justify-content: center; 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px;}
 img{width: 20%;}
+iframe {
+    justify-content: center;
+    display: center;
+    align-items: center;
+    display: flex;
+    border: 15px solid #efeded;
+    width: 50%;
+    height: 500px;
+    margin-left: 23%;
+}
